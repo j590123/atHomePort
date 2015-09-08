@@ -1,0 +1,49 @@
+header{
+    color: darkgrey;
+    margin-left: 75%;
+}
+
+hr{
+    color: darkgrey;
+}
+
+body{
+    background-image: url("../IMG/scuffedstatic_blue1400x900.jpg");
+    color: darkgrey;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.mainBody {
+    background-color: aliceblue;
+    order: 1;
+    flex: 1 0 auto;
+}
+
+.menu{
+    order: 2;
+    display: none;
+    color: darkgrey;
+}
+
+.sideBar{
+    order: 2;
+    display: block;
+    width: 20px;
+    height: 800px;
+    transition: width 2s;
+    color: transparent;
+    background-color: dimgray;
+    flex: 0 1 auto;
+
+}
+
+.sideBar:hover{
+    width: 300px;
+    color: white;
+}
