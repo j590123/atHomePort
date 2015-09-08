@@ -1,15 +1,59 @@
 header{
-    color: darkgrey;
-    margin-left: 75%;
+    color: azure;
+    padding-right: 20px;
+
+
 }
 
+h1{
+    text-shadow: 0.25px 2px whitesmoke, 0.5px 4px lightgrey , 1px 6px red , 3px 8px grey, 5px 10px dimgrey;
+    transition: width 4s;
+}
+
+h1:hover{
+    background-image: url("../IMG/arrow-150966_640.png");
+    background-size: 150px;
+    background-position: right;
+
+
+}
+
+
+
 hr{
-    color: darkgrey;
+    color: dimgray;
+
 }
 
 body{
     background-image: url("../IMG/scuffedstatic_blue1400x900.jpg");
+    background-attachment: fixed;
+    background-size: cover ;
     color: darkgrey;
+    overflow-x: hidden;
+
+}
+
+table{
+    margin: 25%;
+    color: dimgray;
+    background-color: cornsilk;
+    transition:  4s;
+    box-shadow: 5px 10px 15px 5px dimgray, 5px 10px 15px 5px red;
+}
+
+table:hover{
+    transition:  4s;
+    box-shadow: 0px 0px 100px 100px #FF6600, 0px 0px 250px 250px #FF9933, 0px 0px 500px 500px yellow;
+}
+
+td{
+    outline:  solid red;
+}
+
+.formHeight{
+    min-height: 200px;
+    min-width: 200px;
 }
 
 .contain {
@@ -20,26 +64,19 @@ body{
 }
 
 .mainBody {
-    background-color: aliceblue;
     order: 1;
     flex: 1 0 auto;
-}
-
-.menu{
-    order: 2;
-    display: none;
-    color: darkgrey;
 }
 
 .sideBar{
     order: 2;
     display: block;
     width: 20px;
-    height: 800px;
+    height: 850px;
     transition: width 2s;
     color: transparent;
     background-color: dimgray;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
 
 }
 
@@ -47,3 +84,4 @@ body{
     width: 300px;
     color: white;
 }
+
