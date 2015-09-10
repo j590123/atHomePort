@@ -6,7 +6,7 @@ header{
 }
 
 h1{
-    text-shadow: 0.25px 2px whitesmoke, 0.5px 4px lightgrey , 1px 6px red , 3px 8px grey, 5px 10px dimgrey;
+    text-shadow: 0.25px 2px whitesmoke, 0.5px 4px lightgrey , 1px 6px gray , 3px 8px grey, 5px 10px dimgrey;
     transition: width 4s;
 }
 
@@ -35,6 +35,7 @@ body{
 }
 
 table{
+    position: absolute;
     margin: 25%;
     color: dimgray;
     background-color: cornsilk;
@@ -52,14 +53,14 @@ td{
 }
 
 .formHeight{
-    min-height: 200px;
+    min-height: 100px;
     min-width: 200px;
 }
 
 .contain {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
 }
 
@@ -72,7 +73,7 @@ td{
     order: 2;
     display: block;
     width: 20px;
-    height: 850px;
+    height: 400px;
     transition: width 2s;
     color: transparent;
     background-color: dimgray;
@@ -85,3 +86,60 @@ td{
     color: white;
 }
 
+.info{
+
+    order: 1;
+    width: 100px;
+}
+
+.addInfo{
+
+    order: 2;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+#faceBook{
+    order: 1;
+
+    width: 70px;
+    height: 70px;
+}
+
+#linkedIn{
+    order: 2;
+
+    width: 70px;
+    height: 70px;
+}
+
+#twitter{
+    order: 3;
+
+    width: 70px;
+    height: 70px;
+}
+
+#faceBook:hover{
+    transform: scale(5) rotate(360deg);
+    transition: 4s;
+    box-shadow: 0px 0px 50px 50px #FF6600, 0px 0px 150px 150px #FF9933, 0px 0px 300px 300px yellow;
+}
+
+#linkedIn:hover{
+    transform: rotate(0deg);
+    transition: 4s;
+    box-shadow: 0px 0px 500px 500px black, 0px 0px 250px 250px darkgrey, 0px 0px 50px 50px yellow;
+}
+
+#twitter:hover{
+    transform: translate(10px,0px);
+    transform:  translate(15px, 5px) translate(20px, -15px) translate(-80px, 90px) ;;
+    transition: 4s;
+    box-shadow: 0px 0px 50px 50px #FF6600, 0px 0px 150px 150px #FF9933, 0px 0px 300px 300px yellow;
+}
