@@ -1,58 +1,58 @@
-header{
+header {
     color: azure;
     padding-right: 20px;
 
-
 }
 
-h1{
-    text-shadow: 0.25px 2px whitesmoke, 0.5px 4px lightgrey , 1px 6px gray , 3px 8px grey, 5px 10px dimgrey;
+h1 {
+    text-shadow: 0.25px 2px whitesmoke, 0.5px 4px lightgrey, 1px 6px gray, 3px 8px grey, 5px 10px dimgrey;
     transition: width 4s;
 }
 
-h1:hover{
+h1:hover {
     background-image: url("../IMG/arrow-150966_640.png");
     background-size: 150px;
     background-position: right;
 
-
 }
 
-
-
-hr{
+hr {
     color: dimgray;
 
 }
 
-body{
+body {
     background-image: url("../IMG/scuffedstatic_blue1400x900.jpg");
     background-attachment: fixed;
-    background-size: cover ;
+    background-size: cover;
     color: darkgrey;
     overflow-x: hidden;
 
 }
 
-table{
+table {
     position: absolute;
     margin: 25%;
     color: dimgray;
     background-color: cornsilk;
-    transition:  4s;
+    transition: 4s;
     box-shadow: 5px 10px 15px 5px dimgray, 5px 10px 15px 5px red;
 }
 
-table:hover{
-    transition:  4s;
+table:hover {
+    transition: 4s;
     box-shadow: 0px 0px 100px 100px #FF6600, 0px 0px 250px 250px #FF9933, 0px 0px 500px 500px yellow;
 }
 
-td{
-    outline:  solid red;
+td {
+    outline: solid red;
 }
 
-.formHeight{
+section {
+
+}
+
+.formHeight {
     min-height: 100px;
     min-width: 200px;
 }
@@ -69,7 +69,7 @@ td{
     flex: 1 0 auto;
 }
 
-.sideBar{
+.sideBar {
     order: 2;
     display: block;
     width: 20px;
@@ -81,65 +81,92 @@ td{
 
 }
 
-.sideBar:hover{
+.sideBar:hover {
     width: 300px;
     color: white;
 }
 
-.info{
+.info {
 
     order: 1;
     width: 100px;
 }
 
-.addInfo{
+.addInfo {
 
     order: 2;
 }
 
-.item{
+.item {
     display: flex;
     justify-content: center;
     padding-top: 10%;
 
 }
 
-#faceBook{
+#faceBook {
     order: 1;
 
     width: 70px;
     height: 70px;
 }
 
-#linkedIn{
+#linkedIn {
     order: 2;
 
     width: 70px;
     height: 70px;
 }
 
-#twitter{
+#twitter {
     order: 3;
 
     width: 70px;
     height: 70px;
 }
 
-#faceBook:hover{
+#faceBook:hover {
     transform: scale(5) rotate(360deg);
     transition: 4s;
     box-shadow: 0px 0px 50px 50px #FF6600, 0px 0px 150px 150px #FF9933, 0px 0px 300px 300px yellow;
 }
 
-#linkedIn:hover{
+#linkedIn:hover {
     transform: rotate(0deg);
     transition: 4s;
     box-shadow: 0px 0px 500px 500px black, 0px 0px 250px 250px darkgrey, 0px 0px 50px 50px yellow;
 }
 
-#twitter:hover{
-    transform: translate(10px,0px);
-    transform:  translate(15px, 5px) translate(20px, -15px) translate(-80px, 90px) ;;
+#twitter:hover {
+    transform: translate(10px, 0px);
+    transform: translate(15px, 5px);
     transition: 4s;
     box-shadow: 0px 0px 50px 50px #FF6600, 0px 0px 150px 150px #FF9933, 0px 0px 300px 300px yellow;
+}
+
+#bull {
+    order: 2;
+    margin-top: 900px;
+
+}
+
+#bull:hover {
+    content: url("../IMG/john.jpg");
+    transform: translate(300px, -600px) scale(2);
+
+}
+
+#aside {
+    float: right;
+    display: block;
+    width: 100px;
+    color: transparent;
+    overflow-x: hidden;
+
+}
+
+#aside:hover {
+    transition: 4s;
+    width: 250px;
+    color: dimgray;
 }

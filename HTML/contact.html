@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="../CSS/port.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="lib/bootstrap/3.3.5/css/bootstrap.min.css">
     <title>John Douglas</title>
 </head>
 
@@ -22,23 +23,23 @@
 <body>
 <div class="contain">
     <div class="mainBody">
-        <form class=contain>
-            <div class="info">
-                First Name:<br><br>
-                Last Name:<br><br>
-                Email:<br><br><br><br>
-                Comments:<br>
+        <form class=container>
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Name</label><br>
+                    <input type="text" class="form-control" id="nameInput"/>
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email</label><br>
+                    <input type="email" class="form-control" id="emailInput"/>
+                </div>
+                <div class="form-group">
+                    <label for="commentInput">Comment</label><br>
+                    <textarea id="commentInput" cols="30" rows="10"></textarea>
+                </div>
 
-            </div>
-            <div class="addInfo">
-                <input id="firstName" type="text"> <br><br>
+            </form>
 
-                <input id="lastName" type="text"><br><br>
-
-                <input id="email" type="text"><br><br>
-
-                <textarea rows="10" cols="30" class="formHeight" type="text"></textarea><br><br>
-            </div>
 
         </form>
         <button name="submit" type="submit" formaction="port.html">Submit</button>
@@ -57,9 +58,21 @@
     </div>
 </div>
 <div class="item">
+
     <img src="../IMG/facebook.png" id="faceBook">
     <img src="../IMG/linkedin.png" id="linkedIn">
     <img src="../IMG/twitter.png" id="twitter">
+</div>
+
+<div id="aside">
+    <div>
+        Menu
+        <ul>
+            <a href="port.html">Main</a><br>
+            <a href="about.html">About</a><br>
+            <a href="https://www.linkedin.com/profile/view?id=AAMAAAmx0mYBEzUL5awhDpSk6KglOQh3MmyF1nI&trk=hp-identity-name">LinkedIn</a><br>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
