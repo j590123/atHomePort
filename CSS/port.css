@@ -3,6 +3,7 @@
 header {
     color: azure;
     padding-right: 20px;
+    background-image: url("../IMG/scuffedstatic_blue1400x900.jpg");
 
 }
 
@@ -16,6 +17,7 @@ h1:hover {
     background-size: 150px;
     background-position: right;
 
+
 }
 
 hr {
@@ -24,7 +26,7 @@ hr {
 }
 
 body {
-    background-image: url("../IMG/scuffedstatic_blue1400x900.jpg");
+    background-color: seashell;
     background-attachment: fixed;
     background-size: cover;
     color: darkgrey;
@@ -173,25 +175,4 @@ section {
     color: dimgray;
 }
 
-
-.rating{
-    background-color: aqua;
-    color: #FF6600;
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    text-align: center;
-}
-
-.rating > span{
-    display: inline-block;
-    position: relative;
-    width: 1.1em;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before{
-    content: "\f0fb";
-    color: blue;
-    position: absolute;
-
-}
 
